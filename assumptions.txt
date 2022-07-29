@@ -1,0 +1,20 @@
+DATABASE MODELS
+
+    Driver :
+        id
+        name
+        cab_id (foreign key to Cab(id))
+        phone_no
+        email
+        isActive
+        isAvailable
+ 
+    Rider : 
+        id
+        name
+        phone_no
+        email
+ 
+    Cab : 
+        id
+        number
